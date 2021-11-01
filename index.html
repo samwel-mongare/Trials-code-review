@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey form.css">
+</head>
+
+<body>
+    <h1 id="title">Microverse Survey Form</h1>
+    <p id="description">The form aims to create the best student experience in Microverse</p>
+    <div class="input-headings">
+        <form id="survey-form">
+            <label for="name" id="name-label">Name: &nbsp;</label><br>
+            <input type="text" id="name" placeholder="Enter your name" required><br>
+
+            <label for="email" id="email-label">Email: &nbsp;</label><br>
+            <input type="email" id="email" placeholder="Enter your email" required="email"><br>
+
+            <label for="number" id="number-label">Age: &nbsp;</label><br>
+            <input type="number" id="number" placeholder="Enter age btwn 18 and 40" min="18" max="40" class="form-inputs" required> </input>
+            <br>
+
+            <label for="dropdown" id="number">Select Months of partcipation: &nbsp;</label>
+            <label for="dropdown" id="number">
+
+			<select id="dropdown">
+				<option value="Below 3 Months"> Below 3 Months </option>
+				<option value="Between 3-6 Months"> Between 3-6 Months </option>
+				<option value="Between 6-10 Months"> Between 6-10 Months </option><br>
+			</select>
+			<br>
+			<br>
+		
+
+			<label for="question"> DO YOU RECOMMEND MICROVERSE TO YOUR FRIENDS? </label><br>
+
+
+            <input id="question" type="radio" id="black" name="color" value="black">
+            <label for="question"> YES,Of Course</label> <br>
+
+            <input id="question" type="radio" id="black" name="color" value="black">
+            <label for="question"> Maybe </label> <br>
+
+            <input id="question" type="radio" id="black" name="color" value="black">
+            <label for="question"> Not sure </label>
+            <br>
+            <br>
+            <label id="favorites">Please select the things you find interesting in Microverse(can be more that one)</label><br>
+
+            <input type="checkbox" id="partner" name="partner" value="Coding Partner">
+            <label for="partner"> I like the partnership learning</label><br>
+            <input type="checkbox" id="support" name="support" value="Coding Support">
+            <label for="support"> I like the good and intensive support offered by staff</label><br>
+            <input type="checkbox" id="mentor" name="mentor" value="Overall Mentorship">
+            <label for="mentor"> I like the mentorship program in the school</label><br>
+            <input type="checkbox" id="opportunity" name="opportunity" value="opportunity to explore">
+            <label for="partner"> I like that it provides opportunity for exploration</label><br><br>
+
+
+
+            <label for="text-area">Please input your comments</label><br>
+            <textarea type="textarea" id="text_area" placeholder="Please type in your comments here" row="4" cols="50"></textarea><br>
+
+
+            <input type="submit" id="submit" value="Submit Survey" class="submit-button">
+
+
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
